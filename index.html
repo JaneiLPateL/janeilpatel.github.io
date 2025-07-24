@@ -5,82 +5,110 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Janeil Atul Patel</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
 </head>
 <body class="font-sans bg-gray-100 text-gray-800">
-  <div class="max-w-5xl mx-auto p-6">
-    <!-- Hero -->
-    <section class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-16 px-8 rounded-lg shadow-lg mt-6">
-      <h1 class="text-5xl font-extrabold text-center">Janeil Atul Patel</h1>
-      <p class="mt-4 text-xl text-center">Senior Technical Project Manager<br>Cloud &amp; Infrastructure Expert</p>
-      <div class="mt-6 flex justify-center space-x-4">
-        <a href="mailto:janeilpatel94@gmail.com" class="inline-block bg-white text-blue-600 px-5 py-2 rounded-full font-semibold hover:bg-gray-100 transition">Email</a>
-        <a href="https://www.linkedin.com/in/janeil-patel/" target="_blank" class="inline-block bg-white text-blue-600 px-5 py-2 rounded-full font-semibold hover:bg-gray-100 transition">LinkedIn</a>
-      </div>
-    </section>
+  <!-- Navigation -->
+  <header class="fixed w-full bg-white bg-opacity-70 backdrop-blur-md z-50">
+    <div class="max-w-5xl mx-auto flex items-center justify-between py-4 px-6">
+      <a href="#hero" class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition">Janeil Patel</a>
+      <nav class="space-x-8 text-gray-700">
+        <a href="#experience" class="hover:text-blue-600 transition">Experience</a>
+        <a href="#education" class="hover:text-indigo-600 transition">Education</a>
+        <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Experience -->
-    <section class="mt-10 bg-white p-8 rounded-lg shadow">
-      <h2 class="text-2xl font-semibold border-b-2 border-blue-600 inline-block pb-1">Professional Experience</h2>
-      <div class="space-y-8 mt-6">
-        <!-- Akamai Technologies -->
-        <div>
-          <h3 class="text-xl font-bold">Akamai Technologies, Inc <span class="font-normal text-gray-600">(June 2018 – Present)</span></h3>
-          <h4 class="text-lg font-semibold mt-1">Senior Technical Project Manager <span class="font-normal text-gray-600">(Oct 2023 – Present)</span></h4>
-          <ul class="list-disc ml-6 mt-3 space-y-1">
-            <li>Automated 90% of manual onboarding tasks by designing Python workflows integrated into CI/CD pipelines, accelerating deployments and reducing errors.</li>
+  <!-- Hero Section -->
+  <section id="hero" class="min-h-screen flex items-center bg-gradient-to-br from-blue-600 to-indigo-600 pt-20">
+    <div class="max-w-5xl mx-auto text-center px-6 text-white">
+      <h1 class="text-6xl lg:text-7xl font-extrabold">Janeil Atul Patel</h1>
+      <p class="mt-4 text-2xl lg:text-3xl">Senior Technical Project Manager<br>Cloud &amp; Infrastructure Expert</p>
+      <div class="mt-8 flex justify-center space-x-6">
+        <a href="mailto:janeilpatel94@gmail.com" class="inline-block bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Email</a>
+        <a href="https://www.linkedin.com/in/janeil-patel/" target="_blank" class="inline-block bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Experience -->
+  <section id="experience" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center text-gray-800">Professional Experience</h2>
+      <div class="mt-12 space-y-12">
+        <!-- Entry -->
+        <div class="group bg-gray-50 p-8 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-2xl font-semibold text-gray-800 group-hover:text-blue-600 transition">Akamai Technologies, Inc <span class="text-gray-600 font-normal">(June 2018 – Present)</span></h3>
+          <h4 class="mt-2 text-xl font-medium text-gray-700">Senior Technical Project Manager <span class="text-gray-500 font-normal">(Oct 2023 – Present)</span></h4>
+          <ul class="list-disc ml-6 mt-4 space-y-2 text-gray-600">
+            <li>Automated 90% of manual onboarding tasks by designing Python workflows integrated into CI/CD pipelines.</li>
             <li>Led 80+ enterprise cloud migrations with zero unplanned downtime, improving performance and cutting costs by 20%.</li>
-            <li>Mentored 10+ junior engineers, streamlining workflows to increase team productivity by 30%.</li>
+            <li>Mentored 10+ junior engineers, increasing team productivity by 30%.</li>
             <li>Hosted a webinar on peak-season strategies, influencing $200K in annual customer investment.</li>
-            <li>Delivered 15+ POCs, aligning solutions with architecture goals and driving 25% revenue growth.</li>
+            <li>Delivered 15+ POCs, driving 25% revenue growth.</li>
           </ul>
         </div>
-        <div>
-          <h4 class="text-lg font-semibold">Technical Project Manager II <span class="font-normal text-gray-600">(Apr 2021 – Oct 2023)</span></h4>
-          <ul class="list-disc ml-6 mt-3 space-y-1">
-            <li>Acted as customer advocate by channeling feedback from key clients to product teams, influencing multi-year renewals.</li>
+        <!-- Additional Roles -->
+        <div class="group bg-gray-50 p-8 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1">
+          <h4 class="text-xl font-semibold text-gray-800 group-hover:text-blue-600 transition">Technical Project Manager II <span class="text-gray-600 font-normal">(Apr 2021 – Oct 2023)</span></h4>
+          <ul class="list-disc ml-6 mt-4 space-y-2 text-gray-600">
+            <li>Advocated for key clients, channeling feedback to product teams and influencing multi-year renewals.</li>
             <li>Authored solution guides on automation and CDN, reducing onboarding time by 40%.</li>
           </ul>
         </div>
-        <div>
-          <h4 class="text-lg font-semibold">Technical Project Manager <span class="font-normal text-gray-600">(Jun 2018 – Apr 2021)</span></h4>
-          <ul class="list-disc ml-6 mt-3 space-y-1">
+        <div class="group bg-gray-50 p-8 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1">
+          <h4 class="text-xl font-semibold text-gray-800 group-hover:text-blue-600 transition">Technical Project Manager <span class="text-gray-600 font-normal">(Jun 2018 – Apr 2021)</span></h4>
+          <ul class="list-disc ml-6 mt-4 space-y-2 text-gray-600">
             <li>Built serverless Edge solutions using Akamai EdgeWorkers, enhancing scalability and performance.</li>
-            <li>Coordinated end-to-end workflows, ensuring smooth project delivery and documentation.</li>
+            <li>Coordinated end-to-end workflows for smooth project delivery.</li>
           </ul>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Education -->
-    <section class="mt-10 bg-gray-50 p-8 rounded-lg shadow">
-      <h2 class="text-2xl font-semibold border-b-2 border-indigo-600 inline-block pb-1">Education</h2>
-      <ul class="list-disc ml-6 mt-4 space-y-1">
-        <li><strong>Master of Science, Computer Science</strong> &ndash; NYU Tandon School of Engineering (May 2018)</li>
-        <li><strong>Bachelor of Engineering, Electronics Engineering</strong> &ndash; University of Mumbai (May 2016)</li>
-      </ul>
-    </section>
+  <!-- Education -->
+  <section id="education" class="py-20 bg-gray-50">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center text-gray-800">Education</h2>
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-gray-800">Master of Science, Computer Science</h3>
+          <p class="mt-2 text-gray-600">NYU Tandon School of Engineering (May 2018)</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-gray-800">Bachelor of Engineering, Electronics Engineering</h3>
+          <p class="mt-2 text-gray-600">University of Mumbai (May 2016)</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Certifications & Skills -->
-    <section class="mt-10 bg-white p-8 rounded-lg shadow">
-      <h2 class="text-2xl font-semibold border-b-2 border-blue-600 inline-block pb-1">Certifications &amp; Skills</h2>
-      <div class="mt-4 space-y-4">
-        <div>
-          <h3 class="font-semibold">Cloud Certifications</h3>
-          <ul class="list-disc ml-6 mt-2 space-y-1">
+  <!-- Certifications & Skills -->
+  <section id="skills" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center text-gray-800">Certifications &amp; Skills</h2>
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-gray-50 p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-gray-800">Cloud Certifications</h3>
+          <ul class="list-disc ml-6 mt-4 text-gray-600 space-y-1">
             <li>AWS Certified Solution Architect – Associate</li>
           </ul>
         </div>
-        <div>
-          <h3 class="font-semibold">Technical Skills</h3>
-          <p class="ml-6">AWS · GCP · Akamai · DNS Management · Anycast · Network Security · Terraform · CI/CD (Jenkins, GitHub Actions) · Python · Automation · Grafana · SQL · JSON · Performance Tuning · Cloud Cost Management · ROI Analysis · Jira · Confluence · Customer Advocacy · SLA Compliance</p>
+        <div class="bg-gray-50 p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-gray-800">Technical Skills</h3>
+          <p class="mt-2 text-gray-600">AWS · GCP · Akamai · DNS Management · Anycast · Network Security · Terraform · CI/CD · Python · Automation · Grafana · SQL · JSON · Performance Tuning · Cloud Cost Management · Jira · Confluence · SLA Compliance</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="mt-12 text-center text-gray-600 text-sm">
-      &copy; 2025 Janeil Atul Patel · <a href="mailto:janeilpatel94@gmail.com" class="hover:underline">janeilpatel94@gmail.com</a>
-    </footer>
-  </div>
+  <!-- Footer -->
+  <footer class="py-8 text-center text-gray-600 text-sm">
+    &copy; 2025 Janeil Atul Patel · <a href="mailto:janeilpatel94@gmail.com" class="hover:underline">janeilpatel94@gmail.com</a>
+  </footer>
 </body>
 </html>
